@@ -4,4 +4,4 @@ function serveHello(req, res) {
 
 module.exports = {
 	serve: serveHello
-}
+};
