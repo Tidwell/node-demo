@@ -1,7 +1,7 @@
+var serveHello = require('./controllers/serve').serve;
+
 function bindRoutes(app) {
-	app.get('*', function(req, res) {
-		res.send('Hello World Express from the routes file');
-	});
+	app.get('*', serveHello);
 }
 
 module.exports = {
