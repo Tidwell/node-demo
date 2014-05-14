@@ -1,4 +1,9 @@
-var config = require('./config');
+var config = require('./configs/local');
+
+var env = process.argv[2];
+if (env) {
+	config = require('./configs/'+env);
+}
 
 var express = require('express');
 var routes = require('./routes');
