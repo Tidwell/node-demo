@@ -1,0 +1,12 @@
+{
+  "name": "node-demo",
+  "version": "0.0.1",
+  "author": "Aaron Tidwell <aaron.tidwell@gmail.com>",
+  "description": "some examples for node",
+  "dependencies" : {
+    "express"   :  "3.x"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
